@@ -28,7 +28,15 @@
           <li>Weekly report</li>
           <li>$5.99 per extra change</li>
         </ul>
-        <button onclick="subscribe('tier1')">Subscribe</button>
+       <script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1Sls2DDcfm3sXczAIOylGcqJ"
+  publishable-key="pk_test_51SlrpxDcfm3sXczA8161AaLf6MeyaK2tkaVjPx3dCfKEMkpADcpmp2sQGT8NJvJr8euGrpDiLphROlq0jRne9Qgw00b8SrsTAz"
+>
+</stripe-buy-button>
       </div>
 
       <!-- Tier 2 -->
