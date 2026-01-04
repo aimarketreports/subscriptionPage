@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscribe to Our Service</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Choose Your Subscription Plan</h1>
+    <p>Get personalized market analysis delivered weekly</p>
+  </header>
+
+  <main>
+    <div class="plans">
+
+      <!-- Tier 1 -->
+      <div class="plan">
+        <h2>Tier 1 - Junior Analyst</h2>
+        <p class="price">$12.99 / month</p>
+        <ul>
+          <li>General market analysis</li>
+          <li>2 industry sources</li>
+          <li>2 companies deep dive</li>
+          <li>Summary report ≤ 1000 words</li>
+          <li>Weekly report</li>
+          <li>$5.99 per extra change</li>
+        </ul>
+        <button onclick="subscribe('tier1')">Subscribe</button>
+      </div>
+
+      <!-- Tier 2 -->
+      <div class="plan">
+        <h2>Tier 2 - Executive</h2>
+        <p class="price">$25.99 / month</p>
+        <ul>
+          <li>All Tier 1 features</li>
+          <li>5 extra data sources</li>
+          <li>5 extra companies deep dive</li>
+          <li>Deeper contextual analysis</li>
+          <li>References included</li>
+          <li>Up to 4 refinements/month</li>
+        </ul>
+        <button onclick="subscribe('tier2')">Subscribe</button>
+      </div>
+
+      <!-- Tier 3 -->
+      <div class="plan">
+        <h2>Tier 3 - Senior VP</h2>
+        <p class="price">$45.99 / month</p>
+        <ul>
+          <li>Unlimited data sources & companies</li>
+          <li>Unlimited report frequency & changes</li>
+          <li>Priority support</li>
+        </ul>
+        <button onclick="subscribe('tier3')">Subscribe</button>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
